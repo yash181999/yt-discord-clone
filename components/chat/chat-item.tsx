@@ -26,7 +26,7 @@ interface ChatItemProps {
     profile: Profile;
   };
   timestamp: string;
-  fileUrl: string | undefined;
+  fileUrl: string | null;
   deleted: boolean;
   currentMember: Member;
   isUpdated: boolean;
